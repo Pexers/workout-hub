@@ -1,0 +1,268 @@
+{
+    "User": [
+        {
+            "role": "Admin",
+            "username": "UserTest",
+            "password": "123",
+            "sex": "Male",
+            "age": 21,
+            "weight": 65,
+            "height": 1.75
+        },
+        {
+            "role": "Admin",
+            "username": "UserTest2",
+            "password": "123",
+            "sex": "Male",
+            "age": 22,
+            "weight": 67,
+            "height": 1.73
+        },
+        {
+            "role": "Exerciser",
+            "username": "UserTest3",
+            "password": "123",
+            "sex": "Female",
+            "age": 24,
+            "weight": 58,
+            "height": 1.65
+        },
+        {
+            "role": "Exerciser",
+            "username": "UserTest4",
+            "password": "123",
+            "sex": "Male",
+            "age": 28,
+            "weight": 62,
+            "height": 1.70
+        }
+    ],
+    "Muscle": [
+        {
+            "name": "Abs"
+        },
+        {
+            "name": "Biceps"
+        },
+        {
+            "name": "Chest"
+        },
+        {
+            "name": "Forearms"
+        },
+        {
+            "name": "Glutes"
+        },
+        {
+            "name": "Neck"
+        },
+        {
+            "name": "Obliques"
+        },
+        {
+            "name": "Quads"
+        },
+        {
+            "name": "Shoulders"
+        },
+        {
+            "name": "Traps"
+        },
+        {
+            "name": "Triceps"
+        }
+    ],
+    "Activity": [
+        {
+            "name": "Bench Press",
+            "difficulty": "Medium",
+            "image": "bench_press.jpg",
+            "description": "Step 1: Lie on the bench with your eyes under the bar\nStep 2: Grab the bar with a medium grip-width (thumbs around the bar!)\nStep 3: Unrack the bar by straightening your arms\nStep 4: Lower the bar to your mid-chest\nStep 5: Press the bar back up until your arms are straight",
+            "muscles": [
+                {
+                    "idMuscle": 2,
+                    "name": "Chest"
+                },
+                {
+                    "idMuscle": 8,
+                    "name": "Shoulders"
+                },
+                {
+                    "idMuscle": 10,
+                    "name": "Triceps"
+                }
+            ]
+        },
+        {
+            "name": "Tricep Pushdown",
+            "difficulty": "Easy",
+            "image": "tricep_push_down.jpg",
+            "description": "Step 1: Feet shoulder width apart, face a high pulley machine with an attached bar at shoulder level height and grasp it with your palms facing down (pronated). Hold the bar close to your chest for your starting position.\nStep 2: Keeping your body stationary, exhale as you lower the bar by completely extending your arms downward until the bar touches your thighs.\nStep 3: Hold for a moment and then inhale as you slowly return the bar to shoulder level.\nStep 4: Repeat for a complete set.",
+            "muscles": [
+                {
+                    "idMuscle": 10,
+                    "name": "Triceps"
+                }
+            ]
+        },
+        {
+            "name": "Leg Extension",
+            "difficulty": "Easy",
+            "image": "leg_extension.jpg",
+            "description": "Step 1: Sit on a leg extension machine. Position your legs under the pad and grasp the side bars with your hands. This is the starting position.\nStep 2: Extend your legs to the maximum, exhaling as you do so. Pause a second in this contracted position.\nStep 3: Lower the weight back to the original position as you inhale. Make sure your legs don't go past the 90-degree angle point.\nStep 4: Repeat for the desired number of reps.",
+            "muscles": [
+                {
+                    "idMuscle": 7,
+                    "name": "Quads"
+                }
+            ]
+        },
+        {
+            "name": "Push-Up",
+            "difficulty": "Medium",
+            "image": "push_up.jpg",
+            "description": "Step 1: Lie on an exercise floor mat, face down.\nStep 2: Press your toes against the floor and place your hands flat on the ground shoulder width arms apart, fingers extended forward.\nStep 3: Push yourself up so that your arms are nearly extended and your torso and legs are off the floor. This is your starting position.\nStep 4: Inhaling, bend your arms to lower your body and touch your chest nearly to the floor.\nStep 5: Exhaling, contract your chest as you push off the ground and return to the starting position.\nStep 6: Pause for a moment and then repeat for a full set.",
+            "muscles": [
+                {
+                    "idMuscle": 2,
+                    "name": "Chest"
+                },
+                {
+                    "idMuscle": 8,
+                    "name": "Shoulders"
+                }
+            ]
+        },
+        {
+            "name": "Side Plank",
+            "difficulty": "Medium",
+            "image": "side_plank.jpg",
+            "description": "Step 1: Lie down with your left side on an exercise mat. Place your feet together on top of each other. Next, prop yourself up on your left elbow and forearm.\nStep 2: Begin exercise by raising your hips so that your body forms a straight line from your ankles to your shoulders. Place your right hand on your right hip.\nStep 3: Hold this position for desired amount of time. Lower down and repeat on right side.",
+            "muscles": [
+                {
+                    "idMuscle": 0,
+                    "name": "Abs"
+                },
+                {
+                    "idMuscle": 6,
+                    "name": "Obliques"
+                }
+            ]
+        },
+        {
+            "name": "Alternating Dumbbell Curl",
+            "difficulty": "Easy",
+            "image": "alternating_dumbbell_curl.jpg",
+            "description": "Step 1: Stand upright with a dumbbell in each hand. Your elbows should be close to your torso, with the palm of your hand facing your thighs.\nStep 2: Keeping your upper arm stationary, curl the dumbbell in your right hand as you turn the palm of your hand until it is facing forward. Continue contracting your bicep as you exhale until your bicep is contracted and the dumbbell is at shoulder height. Hold this position for a second and squeeze your biceps.\nStep 3: Bring the barbell back to the starting point, inhaling as you do so. Your palm should be twisted back to the starting position as you bring it down. When you are done, your palm should be facing your thighs.\nStep 4: Repeat this movement with your left hand. This is one repetition.",
+            "muscles": [
+                {
+                    "idMuscle": 1,
+                    "name": "Biceps"
+                }
+            ]
+        }
+    ],
+    "Plan": [
+        {
+            "idUser": 0,
+            "name": "Monday plan",
+            "description": "Work hard on this one!",
+            "activities": [
+                {
+                    "idActivity": 0,
+                    "setsType": "RepSets",
+                    "sets": [
+                        {
+                            "weight": 30,
+                            "reps": 10
+                        },
+                        {
+                            "weight": 45,
+                            "reps": 10
+                        }
+                    ],
+                    "restTime": 15
+                },
+                {
+                    "idActivity": 1,
+                    "setsType": "RepSets",
+                    "sets": [
+                        {
+                            "weight": 15,
+                            "reps": 10
+                        },
+                        {
+                            "weight": 20,
+                            "reps": 10
+                        },
+                        {
+                            "weight": 25,
+                            "reps": 5
+                        },
+                        {
+                            "weight": 20,
+                            "reps": 5
+                        }
+                    ],
+                    "restTime": 15
+                },
+                {
+                    "idActivity": 4,
+                    "setsType": "TimedSets",
+                    "sets": [
+                        {
+                            "time": 1
+                        },
+                        {
+                            "time": 2
+                        },
+                        {
+                            "time": 1
+                        },
+                        {
+                            "time": 1
+                        }
+                    ],
+                    "restTime": 30
+                }
+            ]
+        },
+        {
+            "idUser": 0,
+            "name": "Full body plan",
+            "description": "",
+            "activities": [
+                {
+                    "idActivity": 5,
+                    "setsType": "RepSets",
+                    "sets": [
+                        {
+                            "weight": 5,
+                            "reps": 30
+                        },
+                        {
+                            "weight": 10,
+                            "reps": 20
+                        }
+                    ],
+                    "restTime": 20
+                },
+                {
+                    "idActivity": 3,
+                    "setsType": "RepSets",
+                    "sets": [
+                        {
+                            "weight": 0,
+                            "reps": 15
+                        },
+                        {
+                            "weight": 0,
+                            "reps": 30
+                        }
+                    ],
+                    "restTime": 20
+                }
+            ]
+        }
+    ]
+}

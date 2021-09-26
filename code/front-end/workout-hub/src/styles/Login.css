@@ -1,0 +1,43 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.Login {
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.loginBox {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+  background-color: #ffffffd5;
+  box-shadow: 0 2px 2px 0 #00000024, 0 2px 3px -2px #0000001f, 0 1px 1px 0 #00000033;
+}
+
+.forgotPassword {
+  width: fit-content;
+  cursor: pointer;
+  color: #3939dd;
+}
+
+.forgotPassword:hover {
+  color: #2c2cad;
+  text-decoration: underline;
+}
+
+.Login .darkButton {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 15px;
+  padding-left: 15px;
+}

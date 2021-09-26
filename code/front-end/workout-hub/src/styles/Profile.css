@@ -1,0 +1,28 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.Profile {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profileBox {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+    background-color: #ffffffd5;
+    box-shadow: 0 2px 2px 0 #00000024, 0 2px 3px -2px #0000001f, 0 1px 1px 0 #00000033;
+  }
+
+  .horizontalLine {
+    display: block;
+    height: 1px;
+    border-top: 1px solid #ccc;
+}
+
+  .userDataName{
+      font-weight: bold;
+  }

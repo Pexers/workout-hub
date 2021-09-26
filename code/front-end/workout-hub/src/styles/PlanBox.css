@@ -1,0 +1,41 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.PlanBox {
+    border-radius: 5px;
+    height: 100%;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 2px 2px 0 #00000024, 0 2px 3px -2px #0000001f, 0 1px 1px 0 #00000033;
+    background-color: #ffffffd5;
+}
+
+.planArrowIcon {
+    width: 36px;
+    height: 36px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.planArrowIcon:hover {
+    background-color: #dadada;
+    transition: 0.2s;
+}
+
+.activityNumberCircle {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4b4e5b;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #4b4e5b;
+    border-radius: 50%;
+}
+
+.PlanBox .activityBoxImage {
+    height: 140px;
+}

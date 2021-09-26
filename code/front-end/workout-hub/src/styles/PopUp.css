@@ -1,0 +1,38 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.PopUp {
+    border-radius: 10px;
+    border-color:  #2CC97F;
+    border-style: solid;
+    background-color: #f5f5f5f6;
+    font-family: 'Raleway', sans-serif;
+}
+
+.overlayPopUp {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    background-color: #00000067;
+    overflow: overlay;
+}
+
+.popUpButton {
+    height: 29px;
+    width: 29px;
+    float: right;
+    margin-top: 0.4em;
+    margin-right: 0.6em;
+}
+
+.popUpChildrenBox {
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}

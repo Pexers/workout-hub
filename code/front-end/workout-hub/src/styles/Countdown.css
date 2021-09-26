@@ -1,0 +1,22 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+.countdownIcon{
+    font-size: 30px;
+    margin-top: -0.1em;
+    margin-left: 0.2em;
+    color: white;
+    display: inline-block;
+}
+
+.overlayCountDown {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    position: fixed;
+    background-color: #000000ad;
+    overflow: overlay;
+}
