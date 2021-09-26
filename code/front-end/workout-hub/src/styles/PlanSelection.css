@@ -1,0 +1,29 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.PlanSelection {
+    overflow-y: auto;
+    height: 200px;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+
+.planForSelection {
+    transition: 0.2s;
+    width: 90%;
+    border-radius: 5px;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 2px 2px 0 #00000024, 0 2px 3px -2px #0000001f, 0 1px 1px 0 #00000033;
+    background-color: #ffffffd5;
+    cursor: pointer;
+}
+
+.planForSelection:hover {
+    background-color: #2CC97F;
+    color: white;
+    transition: 0.2s;
+}

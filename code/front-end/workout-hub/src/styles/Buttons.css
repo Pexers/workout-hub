@@ -1,0 +1,128 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.goBackButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 2px;
+    background-color: #2CC97F;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    transition: 0.2s;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.darkButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #34495E;
+    color: white;
+    border: none;
+    transition: 0.2s;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.whiteButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    transition: 0.3s;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.greenButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #2CC97F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    transition: 0.2s;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.yellowButton {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #ffe600;
+    color: black;
+    border: none;
+    transition: 0.2s;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.buttonRounded {
+    border-radius: 18px;
+}
+
+.buttonIcon {
+    margin-top: -4px;
+    margin-right: 2px;
+}
+
+.closeButton {
+    color: #4b4e5b;
+    transition: 0.2s;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.goBackButton:hover {
+    background-color: #24a76a;
+    transition: 0.2s;
+}
+
+.darkButton:hover {
+    background-color: #5D6D7E;
+    transition: 0.2s;
+}
+
+.whiteButton:hover {
+    background-color: #4b4a4a;
+    color: white;
+    transition: 0.3s;
+}
+
+.yellowButton:hover {
+    background-color: #f0d800;
+    transition: 0.2s;
+}
+
+.greenButton:hover {
+    background-color: #24a76a;
+    transition: 0.2s;
+}
+
+.closeButton:hover {
+    background-color: #2CC97F;
+    transition: 0.2s;
+}

@@ -1,0 +1,37 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+.Settings {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.userItemIcon {
+  margin-top: -0.2em;
+  display: inline-block;
+  color: #2CC97F;
+  font-size: 22px;
+}
+
+.vertLine {
+  border-left: 1px solid #5f656d;
+  width: 1px;
+  vertical-align: middle;
+}
+
+.userItemIconOperation {
+  font-size: 17px;
+}
+
+.actionUserTxt{
+  color:#fa5252;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.actionUserTxt:hover{
+  color:#d64a4a;
+}

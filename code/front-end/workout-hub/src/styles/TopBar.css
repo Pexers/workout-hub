@@ -1,0 +1,180 @@
+/*
+ *
+ * Copyright (c) Sun Sep 26 2021, Pexers (https://github.com/Pexers)
+ *
+ */
+ 
+html {
+    /*  62 = height(TopBar) + height(TopBarFrame)  */
+    padding-top: 62px;
+}
+
+.TopBar {
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    z-index: 3;
+    height: 55px;
+    background-color: #4b4e5b;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.TopBarFrame {
+    width: 100%;
+    height: 7px;
+    margin-top: 55px;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    background-color: #5DF691;
+    box-shadow: 0 2px 2px 0 #00000024, 0 2px 1px -2px #0000001f, 0 1px 1px 0 #00000033;
+}
+
+.menuRef {
+    margin: 0.8em;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menuXsRef {
+    color: white;
+    line-height: 50px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menuRef:hover {
+    color: #2cc97f;
+}
+
+.menuXsRef:hover {
+    color: #2cc97f;
+}
+
+.topBarUserIcon {
+    margin-top: -4px;
+    display: inline-block;
+    color: #2cc97f;
+}
+
+.topBarOptionsIcon {
+    font-size: 18px;
+    margin-top: -2px;
+    display: inline-block;
+    color: #2cc97f;
+}
+
+.topBarHamburguerIcon {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+}
+
+.userOption {
+    width: 100%;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.userRef {
+    line-height: 60px;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.userRef:hover {
+    color: #2cc97f;
+}
+
+.userOptionsBox {
+    margin-top: -1em;
+    display: none;
+    z-index: 2;
+    position: fixed;
+    background-color: #4b4e5b;
+    border: 2px solid #2cc97f;
+    border-radius: 6px;
+}
+
+.userRef:hover .userOptionsBox {
+    display: block;
+}
+
+.userOptionsBox .userOption {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.userOptionsBox .userOption:hover {
+    color: #2cc97f;
+}
+
+.userOptionsBox .userOption a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.userOptionsBox .userOption a:hover {
+    color: #2cc97f;
+}
+
+.toolbar {
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 5;
+    display: block;
+    background-color: #545866;
+}
+
+.toolbarBanner {
+    background-color: #454753;
+    color: white;
+    font-size: 21px;
+    min-height: 55px;
+    overflow-wrap: break-word;
+}
+
+.overlayToolbar {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 4;
+    background-color: #0000009a;
+}
+
+.userOptionXs {
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.userOptionXs:hover {
+    background-color: #696d80;
+    transition: 0.5s;
+}
+
+.TopBar hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #a8a8a8;
+    margin: 0.2em 0;
+    padding: 0;
+}
+
+.toolbarXsIcons {
+    margin-top: -2px;
+    font-size: 20px;
+}

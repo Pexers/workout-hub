@@ -1,0 +1,4 @@
+Light Green: #5DF691
+Green: #2CC97F
+Dark blue: #34495E
+Dark grey: #4b4e5b
